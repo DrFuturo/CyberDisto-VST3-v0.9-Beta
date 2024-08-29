@@ -1,4 +1,11 @@
-*.ipch filter=lfs diff=lfs merge=lfs -text
+files filter=lfs diff=lfs merge=lfs -text
+with filter=lfs diff=lfs merge=lfs -text
+LFS filter=lfs diff=lfs merge=lfs -text
 *.iobj filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
+*.ipch
+git[[:space:]]add[[:space:]].gitattributes[[:space:]]puis[[:space:]]git[[:space:]]commit[[:space:]]-m[[:space:]] filter=lfs diff=lfs merge=lfs -text
+Track filter=lfs diff=lfs merge=lfs -text
+large filter=lfs diff=lfs merge=lfs -text
+*.ipch filter=lfs diff=lfs merge=lfs -text
 *.db filter=lfs diff=lfs merge=lfs -text
