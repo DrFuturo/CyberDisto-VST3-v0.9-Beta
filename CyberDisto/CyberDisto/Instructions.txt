@@ -1,0 +1,12 @@
+Make an audio plugin with JUICE that makes distortion with a filter and a compressor with a sleek, modern, minimalistic and cyberpunk design compatible with VST3 and windows and mac, vector graphics and resizable.
+
+1. Analogue-style distortion circuit with a soft clipping function.
+2. Drive` parameter to control the amount of distortion. Next, implement a simple low-pass filter controlled by the Filter parameter, using a first-order filter for simplicity. Then, add a basic compressor that uses the Compression parameter to adjust the threshold and ratio. Finally, implement the Mix control to blend the dry and wet signals, allowing users to adjust the balance between the original and processed audio.
+3. Design the user interface (UI) by creating knobs for each parameter (Drive, Filter, Compression, and Mix). Arrange the knobs in a logical and user-friendly layout, ensuring that the UI is sleek and modern. Include smooth animations for knob adjustments and visual feedback when parameters are changed, such as glowing effects or meter animations.
+4. Once the plugin is functioning correctly, create a few presets that highlight different sound characteristics, such as a “Warm Distortion” or “Heavy Crunch” setting. Allow users to save and load their own presets.
+5. The plugin should be able to run in realtime and have low latency.
+6. The plugin should be able to run on windows and mac.
+7. The plugin should be able to run on VST3 and Audio Units.
+8. Make a toggle button to add a special filter to the distortion with a glow around it, and a special Extra Terra EQ (Extra Terra is the name of my music project).
+
+Complete the plugin it's in entirety and ready to be used.

@@ -1,0 +1,42 @@
+﻿  CyberpunkLookAndFeel.cpp
+  PluginProcessor.cpp
+  PluginEditor.cpp
+  include_juce_audio_basics.cpp
+  include_juce_audio_devices.cpp
+  include_juce_audio_formats.cpp
+  include_juce_audio_plugin_client_ARA.cpp
+  include_juce_audio_processors_ara.cpp
+  include_juce_audio_processors_lv2_libs.cpp
+  include_juce_audio_utils.cpp
+  include_juce_core_CompilationTime.cpp
+  include_juce_data_structures.cpp
+  include_juce_dsp.cpp
+  include_juce_events.cpp
+  include_juce_graphics_Harfbuzz.cpp
+  include_juce_gui_extra.cpp
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,55): warning C4244: 'argument' : conversion de 'int' en 'ValueType', perte possible de données
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,55): warning C4244:         with
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,55): warning C4244:         [
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,55): warning C4244:             ValueType=float
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,55): warning C4244:         ]
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,48): warning C4244: 'argument' : conversion de 'int' en 'ValueType', perte possible de données
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,48): warning C4244:         with
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,48): warning C4244:         [
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,48): warning C4244:             ValueType=float
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,48): warning C4244:         ]
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,45): warning C4244: 'argument' : conversion de 'int' en 'ValueType', perte possible de données
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,45): warning C4244:         with
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,45): warning C4244:         [
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,45): warning C4244:             ValueType=float
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,45): warning C4244:         ]
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,42): warning C4244: 'argument' : conversion de 'int' en 'ValueType', perte possible de données
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,42): warning C4244:         with
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,42): warning C4244:         [
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,42): warning C4244:             ValueType=float
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(16,42): warning C4244:         ]
+D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Source\CyberpunkLookAndFeel.cpp(56,22): warning C4996: 'juce::Font::Font': Use the constructor that takes a FontOptions argument
+  include_juce_audio_processors.cpp
+  include_juce_core.cpp
+  include_juce_graphics.cpp
+  include_juce_gui_basics.cpp
+  CyberDisto_SharedCode.vcxproj -> D:\Dossiers\Documents\Coding_projects\Audio-Plugins\CyberDisto\CyberDisto\Builds\VisualStudio2022\x64\CyberDisto by Extra Terra\Shared Code\CyberDisto.lib
