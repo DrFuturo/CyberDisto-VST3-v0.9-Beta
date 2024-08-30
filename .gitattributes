@@ -2,10 +2,12 @@
 *.iobj filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
 *.db filter=lfs diff=lfs merge=lfs -text
-
 # Chemins spécifiques pour les gros fichiers
 CyberDisto/CyberDisto/Builds/VisualStudio2022/.vs/CyberDisto/v17/Browse.VC.db filter=lfs diff=lfs merge=lfs -text
 CyberDisto/CyberDisto/Builds/VisualStudio2022/.vs/CyberDisto/v17/ipch/AutoPCH/PLUGINPROCESSOR.ipch filter=lfs diff=lfs merge=lfs -text
 "CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/Shared Code/CyberDisto.lib" filter=lfs diff=lfs merge=lfs -text
 "CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/Standalone Plugin/CyberDisto.iobj" filter=lfs diff=lfs merge=lfs -text
 CyberDisto/CyberDisto/Builds/VisualStudio2022/.vs/CyberDisto/v17/ipch/AutoPCH/PLUGINEDITOR.ipch filter=lfs diff=lfs merge=lfs -text
+CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto[[:space:]]by[[:space:]]Extra[[:space:]]Terra/Shared[[:space:]]Code/CyberDisto.lib filter=lfs diff=lfs merge=lfs -text
+CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto[[:space:]]by[[:space:]]Extra[[:space:]]Terra/Standalone[[:space:]]Plugin/CyberDisto.iobj filter=lfs diff=lfs merge=lfs -text
+CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto[[:space:]]by[[:space:]]Extra[[:space:]]Terra/VST3/CyberDisto.iobj filter=lfs diff=lfs merge=lfs -text

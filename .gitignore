@@ -1,5 +1,39 @@
+# Ignore all .iobj, .lib, .ipch files
 *.iobj
 *.lib
 *.ipch
+
+# Ignore .vs and x64 directories
 **/.vs/
 **/x64/
+
+# Exceptions pour les gros fichiers gérés par Git LFS
+!CyberDisto/
+!CyberDisto/CyberDisto/
+!CyberDisto/CyberDisto/Builds/
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/Shared Code/
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/Standalone Plugin/
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/VST3/
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/Shared Code/CyberDisto.lib
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/Standalone Plugin/CyberDisto.iobj
+!CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto by Extra Terra/VST3/CyberDisto.iobj
+
+# Additional build files to ignore
+*.tlog
+*.log
+*.recipe
+*.pdb
+*.obj
+*.res
+*.exp
+*.dll
+*.exe
+*.vst3
+
+# Additional files to ignore
+*.FileListAbsolute.txt
+**/VST3 Manifest Helper/
+**/Debug/
