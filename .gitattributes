@@ -13,5 +13,6 @@ CyberDisto/CyberDisto/Builds/VisualStudio2022/.vs/CyberDisto/v17/ipch/AutoPCH/PL
 CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto[[:space:]]by[[:space:]]Extra[[:space:]]Terra/Shared[[:space:]]Code/CyberDisto.lib filter=lfs diff=lfs merge=lfs -text
 CyberDisto/CyberDisto/Builds/VisualStudio2022/x64/CyberDisto[[:space:]]by[[:space:]]Extra[[:space:]]Terra/Standalone[[:space:]]Plugin/CyberDisto.iobj filter=lfs diff=lfs merge=lfs -text
 CyberDisto/CyberDisto/Builds/VisualStudio2022/.vs/CyberDisto/v17/ipch/AutoPCH/PLUGINEDITOR.ipch filter=lfs diff=lfs merge=lfs -text
+
 *.ipch filter=lfs diff=lfs merge=lfs -text
 *.db filter=lfs diff=lfs merge=lfs -text
