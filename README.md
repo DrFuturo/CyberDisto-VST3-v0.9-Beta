@@ -20,13 +20,41 @@ CyberDisto is not just an audio plugin; it's a cybernetic implant for your DAW. 
 - 🌟 Full Version: Available exclusively on [Patreon](https://www.patreon.com/YourPatreonPage). Support the developer and get access to all features!
 - 🧪 Beta Version: Available here on GitHub. A taste of the cyber-future, but with limited features.
 
-## 🚀 Installation: Hack the Planet (or just your audio)
+## 🚀 Installation: Hack the Planet (or just your audio) - Windows 64-bit only, MacOS version will come later!
 
-1. Download the latest build from our totally-not-suspicious underground data haven (or Patreon for full version)
-2. Inject it into your DAW's plugin folder
-3. Boot up your rig and pray to the machine spirits
-4. Locate CyberDisto in your plugin list (Hint: It's the one causing visual glitches)
-5. Slap it on a track and watch your waveforms cry silicon tears
+### System Requirements
+
+- A 64-bit Windows PC that hasn't achieved sentience (yet)
+- 64-bit DAW compatible with VST3 plugins
+- Windows 10 or later (64-bit version)
+- At least 4GB of RAM (8GB recommended for maximum reality distortion)
+
+### Installation Steps
+
+1. **Download**: 
+   - Full Version: Grab the latest 64-bit build from our [Patreon page](https://www.patreon.com/YourPatreonPage).
+   - Beta Version: Download the latest 64-bit release from the [GitHub Releases page](https://github.com/YourUsername/CyberDisto/releases).
+
+2. **Extract**: Unzip the downloaded file to a temporary location. Don't be alarmed if your computer starts speaking in binary.
+
+3. **Install**:
+   - Locate the `.vst3` file in the extracted folder.
+   - Copy this file to your 64-bit VST3 plugins folder. The standard location is:
+     - `C:\Program Files\Common Files\VST3`
+   - If your DAW uses a custom VST folder, refer to its documentation for the correct location.
+
+4. **DAW Integration**:
+   - Restart your 64-bit DAW if it was open during installation.
+   - Most DAWs will scan for new plugins on startup. If not, you may need to manually scan or add the plugin folder in your DAW's preferences.
+   - CyberDisto should now appear in your DAW's plugin list under "Effects" or "Distortion".
+
+5. **Start Distorting**: Slap CyberDisto on a track and watch your waveforms cry 64-bit silicon tears.
+
+If you encounter any issues during installation, please reach out to Extra Terra.
+
+Note: 
+- CyberDisto is currently available only for 64-bit Windows systems.
+- Mac and Linux versions are in development. Stay tuned for updates!
 
 ## 🕶️ Usage: Navigating the Digital Wasteland
 
