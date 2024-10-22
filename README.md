@@ -2,6 +2,8 @@
 
 Welcome to the neon-soaked, circuit-fried world of CyberDisto, where your audio gets a one-way ticket to the digital wasteland! 
 
+![Alt text](screencyberdisto.png)
+
 ## 🌆 What is this chrome-plated noise machine?
 
 CyberDisto is not just an audio plugin; it's a cybernetic implant for your DAW. It takes your pristine audio and runs it through a gauntlet of digital destruction, emerging on the other side as something that would make even a malfunctioning AI scratch its virtual head.
