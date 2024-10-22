@@ -36,12 +36,15 @@
 		3B2A721ED4B58132AC2AC5B5 /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = 635474D08FC77E885A0BB38D; };
 		3C8533C4A3967CD1B822EA98 /* include_juce_audio_processors.mm */ = {isa = PBXBuildFile; fileRef = 098BF3D78AC4095E46EB3CB5; };
 		40508A3B85C5E91DADC54283 /* include_juce_audio_formats.mm */ = {isa = PBXBuildFile; fileRef = 874EF115B394E478288974B8; };
+		4C41BDBC23103DD507430CF7 /* bgcyberdisto.png */ = {isa = PBXBuildFile; fileRef = 25245EBBF45ECCCEE3B0AD7E; };
 		4CD75785BAFD4DC1BD94DA9C /* Cocoa.framework */ = {isa = PBXBuildFile; fileRef = CCAA152045ED11E483ACE52F; };
 		520E215AACF5EE5FD908DCFB /* include_juce_audio_devices.mm */ = {isa = PBXBuildFile; fileRef = 99D7194F812C4B1F7BF96A5F; };
 		56FEC63199FFF4EF9167E1C8 /* include_juce_dsp.mm */ = {isa = PBXBuildFile; fileRef = 2DF028AFC5ECC4B69D88D897; };
+		584210E6B3CD3BFA353B78AA /* BinaryData.cpp */ = {isa = PBXBuildFile; fileRef = 70E1A6FF4676FBB4323D27E1; };
 		5C84266FB6EFD718747776EF /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = A629FDF9347B47102CE82B48; };
 		634F10BD72D09BCE27D4F1C9 /* include_juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = AF3DC3FB5403BD00148ED360; };
 		6A9FF07E0E49C976231E9EF7 /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 7D2A2C0FF42736ECB97DD3C4; };
+		6AEF1667D41ED048E88C5074 /* extraterra.png */ = {isa = PBXBuildFile; fileRef = C2DBBBDF7AFB364D8455694A; };
 		6B9DDF59FA16FFA852BDFE77 /* Shared Code */ = {isa = PBXBuildFile; fileRef = BCA058887B3F63A71D20380A; };
 		6E55A7F4A9B1C01D56F6DB66 /* Security.framework */ = {isa = PBXBuildFile; fileRef = 2834A5783A36238933D814C1; };
 		6ECFDCB82709FACE4DF2FA58 /* WebKit.framework */ = {isa = PBXBuildFile; fileRef = 8793966EDC9F2DF981450B2D; };
@@ -56,9 +59,11 @@
 		9DC3CA7C411CD62585C0A0CF /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = A4CF45728A7AC4073474FE4E; };
 		9F69008C2DC3635374535A26 /* include_juce_audio_utils.mm */ = {isa = PBXBuildFile; fileRef = 43B824703AEC81AE8988D176; };
 		A09A6AED1E9969FEEF8DBA0B /* Standalone Plugin */ = {isa = PBXBuildFile; fileRef = A6AC751DCD1B1B4791393F5F; };
+		AB913FDD526FF813940ADBBA /* cross.png */ = {isa = PBXBuildFile; fileRef = EA05AB5C6B906575018D8660; };
 		ABA747233FB225011CDF2ACA /* include_juce_audio_plugin_client_ARA.cpp */ = {isa = PBXBuildFile; fileRef = 0EB0CAD4ADF7F1394B0794C0; };
 		AEB2C71EEE183F92A52FD097 /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = 942790D2CF86CE7E4637DC9D; };
 		BF626AA629A32458ED324894 /* CoreAudioKit.framework */ = {isa = PBXBuildFile; fileRef = 10267A58ED225F7DC20DCC2E; };
+		C312329B2C98DB66B4590E01 /* PresetData.cpp */ = {isa = PBXBuildFile; fileRef = 6341AC5E163DBD49247BF205; };
 		C5F5D57885B794998AB90ECD /* CoreMIDI.framework */ = {isa = PBXBuildFile; fileRef = A66ACF55400B95768D2378F6; };
 		C82637E5F96E97291CE74A4F /* Accelerate.framework */ = {isa = PBXBuildFile; fileRef = F10B84AD352C3C6626995E20; };
 		C9C5F5130DE27EFA941A0B76 /* PluginProcessor.cpp */ = {isa = PBXBuildFile; fileRef = A0CD959370DDF82F53C74939; };
@@ -67,9 +72,11 @@
 		E0EBA4A89DDB842421B6089A /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 4A43AB8DAB254378BC79A2CA; };
 		E25B5CC7C560436FA08D80A9 /* PluginEditor.cpp */ = {isa = PBXBuildFile; fileRef = CD31C6D3D21FE8261234885F; };
 		EC6BA9668BB1DE7B1FA1516A /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = B82B5446EEF1694717665B7C; };
+		EF44AD922258118C8545CD73 /* logo.png */ = {isa = PBXBuildFile; fileRef = DDA883D49195A63133B9C6C3; };
 		F07D6E4C43BCFEAC436E3A02 /* include_juce_core_CompilationTime.cpp */ = {isa = PBXBuildFile; fileRef = 9470C5E768464E4DC2B07330; };
 		F76E6A8C83FBE3ED58CDEF72 /* include_juce_audio_plugin_client_AU_1.mm */ = {isa = PBXBuildFile; fileRef = 2B3991384835001C0ED2C932; };
 		FC0F33D9BF14FEE407CACE83 /* juce_VST3ManifestHelper.mm */ = {isa = PBXBuildFile; fileRef = 73E1480CD2423F90F08961E0; settings = { COMPILER_FLAGS = "-fobjc-arc -w -DJUCE_SKIP_PRECOMPILED_HEADER"; }; };
+		FEA9118D575BB709D7157FFB /* disk.png */ = {isa = PBXBuildFile; fileRef = 44D1D8EE47FA38DF8518A9DD; };
 		FEEEEFD4767EE3EA591DA9DF /* AudioToolbox.framework */ = {isa = PBXBuildFile; fileRef = 4435EFE94AA5956758F78E89; };
 /* End PBXBuildFile section */
 
@@ -86,6 +93,8 @@
 		1034B0ADB2FABCB03C56D1CB /* AudioUnit.framework */ /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		1536DDB48867854B6DD8637C /* DiscRecording.framework */ /* DiscRecording.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = System/Library/Frameworks/DiscRecording.framework; sourceTree = SDKROOT; };
 		1DE048890F840F5CE5F5F5A9 /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = "~/JUCE/modules/juce_core"; sourceTree = "<absolute>"; };
+		25245EBBF45ECCCEE3B0AD7E /* bgcyberdisto.png */ /* bgcyberdisto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgcyberdisto.png; path = ../../Source/Images/bgcyberdisto.png; sourceTree = SOURCE_ROOT; };
+		2744F602465920361049E83C /* PresetData.h */ /* PresetData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PresetData.h; path = ../../Source/PresetData.h; sourceTree = SOURCE_ROOT; };
 		2834A5783A36238933D814C1 /* Security.framework */ /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		2B3991384835001C0ED2C932 /* include_juce_audio_plugin_client_AU_1.mm */ /* include_juce_audio_plugin_client_AU_1.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_1.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm; sourceTree = SOURCE_ROOT; };
 		2DF028AFC5ECC4B69D88D897 /* include_juce_dsp.mm */ /* include_juce_dsp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_dsp.mm; path = ../../JuceLibraryCode/include_juce_dsp.mm; sourceTree = SOURCE_ROOT; };
@@ -93,6 +102,7 @@
 		36FEE044198FBD6A8FD73BEF /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
 		43B824703AEC81AE8988D176 /* include_juce_audio_utils.mm */ /* include_juce_audio_utils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_utils.mm; path = ../../JuceLibraryCode/include_juce_audio_utils.mm; sourceTree = SOURCE_ROOT; };
 		4435EFE94AA5956758F78E89 /* AudioToolbox.framework */ /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		44D1D8EE47FA38DF8518A9DD /* disk.png */ /* disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disk.png; path = ../../Source/Images/disk.png; sourceTree = SOURCE_ROOT; };
 		4A43AB8DAB254378BC79A2CA /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
 		5A419802D18523F09618F92F /* Info-AU.plist */ /* Info-AU.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-AU.plist"; path = "Info-AU.plist"; sourceTree = SOURCE_ROOT; };
 		5B8E7A3AB37E0A645C471039 /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = "~/JUCE/modules/juce_graphics"; sourceTree = "<absolute>"; };
@@ -100,10 +110,13 @@
 		5F6FD0F04972D4D43737CFBF /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = "~/JUCE/modules/juce_gui_basics"; sourceTree = "<absolute>"; };
 		602E5B2754149C08D4ECC639 /* CyberpunkLookAndFeel.cpp */ /* CyberpunkLookAndFeel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CyberpunkLookAndFeel.cpp; path = ../../Source/CyberpunkLookAndFeel.cpp; sourceTree = SOURCE_ROOT; };
 		62979ECD121E9639D6256EB6 /* juce_audio_utils */ /* juce_audio_utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_utils; path = "~/JUCE/modules/juce_audio_utils"; sourceTree = "<absolute>"; };
+		6341AC5E163DBD49247BF205 /* PresetData.cpp */ /* PresetData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PresetData.cpp; path = ../../Source/PresetData.cpp; sourceTree = SOURCE_ROOT; };
 		635474D08FC77E885A0BB38D /* include_juce_core.mm */ /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
 		6A33D570E44F35F2EC7F2FAE /* JuceHeader.h */ /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
 		6D595398116DC6071B750DB1 /* juce_audio_plugin_client */ /* juce_audio_plugin_client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_plugin_client; path = "~/JUCE/modules/juce_audio_plugin_client"; sourceTree = "<absolute>"; };
 		6EC22A6F8CAA44BD5B4E1138 /* juce_gui_extra */ /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = "~/JUCE/modules/juce_gui_extra"; sourceTree = "<absolute>"; };
+		70BA3334A55C093742ED5977 /* BinaryData.h */ /* BinaryData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryData.h; path = ../../JuceLibraryCode/BinaryData.h; sourceTree = SOURCE_ROOT; };
+		70E1A6FF4676FBB4323D27E1 /* BinaryData.cpp */ /* BinaryData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryData.cpp; path = ../../JuceLibraryCode/BinaryData.cpp; sourceTree = SOURCE_ROOT; };
 		72B6D3C5C36D0220525A0602 /* include_juce_gui_extra.mm */ /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
 		73E1480CD2423F90F08961E0 /* juce_VST3ManifestHelper.mm */ /* juce_VST3ManifestHelper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = juce_VST3ManifestHelper.mm; path = "$(HOME)/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm"; sourceTree = "<absolute>"; };
 		7D2A2C0FF42736ECB97DD3C4 /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -123,24 +136,28 @@
 		A555DD3A498DACC9C75CF16B /* juce_dsp */ /* juce_dsp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_dsp; path = "~/JUCE/modules/juce_dsp"; sourceTree = "<absolute>"; };
 		A629FDF9347B47102CE82B48 /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
 		A66ACF55400B95768D2378F6 /* CoreMIDI.framework */ /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
-		A687F31F8952D6A16A6BD5D2 /* VST3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberDisto.vst3; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6AC751DCD1B1B4791393F5F /* Standalone Plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberDisto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A687F31F8952D6A16A6BD5D2 /* VST3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CyberDisto by Extra Terra.vst3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AC751DCD1B1B4791393F5F /* Standalone Plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CyberDisto by Extra Terra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3DC3FB5403BD00148ED360 /* include_juce_audio_basics.mm */ /* include_juce_audio_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_basics.mm; path = ../../JuceLibraryCode/include_juce_audio_basics.mm; sourceTree = SOURCE_ROOT; };
 		B3FBE805D94D1B171501CD3A /* juce_audio_formats */ /* juce_audio_formats */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_formats; path = "~/JUCE/modules/juce_audio_formats"; sourceTree = "<absolute>"; };
 		B82B5446EEF1694717665B7C /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BCA058887B3F63A71D20380A /* Shared Code */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCyberDisto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA058887B3F63A71D20380A /* Shared Code */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCyberDisto by Extra Terra.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C277D69BC32103B71085FBD3 /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		C2DBBBDF7AFB364D8455694A /* extraterra.png */ /* extraterra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = extraterra.png; path = ../../Source/Images/extraterra.png; sourceTree = SOURCE_ROOT; };
 		C59FB0957F2C9D9D89829102 /* Info-VST3.plist */ /* Info-VST3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-VST3.plist"; path = "Info-VST3.plist"; sourceTree = SOURCE_ROOT; };
 		C78F81D1E031F4A53F2DEE1D /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = "~/JUCE/modules/juce_events"; sourceTree = "<absolute>"; };
 		CCAA152045ED11E483ACE52F /* Cocoa.framework */ /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CD31C6D3D21FE8261234885F /* PluginEditor.cpp */ /* PluginEditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginEditor.cpp; path = ../../Source/PluginEditor.cpp; sourceTree = SOURCE_ROOT; };
-		CF6B013FCFC2C46AB7E5A264 /* AU */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyberDisto.component; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6B013FCFC2C46AB7E5A264 /* AU */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CyberDisto by Extra Terra.component"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A8F840D3617BA05659D37A /* PluginProcessor.h */ /* PluginProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginProcessor.h; path = ../../Source/PluginProcessor.h; sourceTree = SOURCE_ROOT; };
 		DBB04AF4874532577DB876BC /* include_juce_audio_plugin_client_AU_2.mm */ /* include_juce_audio_plugin_client_AU_2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_2.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm; sourceTree = SOURCE_ROOT; };
+		DDA883D49195A63133B9C6C3 /* logo.png */ /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../Source/Images/logo.png; sourceTree = SOURCE_ROOT; };
 		DF789B56725242C2CCE6AE9B /* JucePluginDefines.h */ /* JucePluginDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JucePluginDefines.h; path = ../../JuceLibraryCode/JucePluginDefines.h; sourceTree = SOURCE_ROOT; };
 		E316D903F38C19B886D5E72D /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = "~/JUCE/modules/juce_data_structures"; sourceTree = "<absolute>"; };
 		E530E6FE75D087BEB077D62B /* PluginEditor.h */ /* PluginEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginEditor.h; path = ../../Source/PluginEditor.h; sourceTree = SOURCE_ROOT; };
+		EA05AB5C6B906575018D8660 /* cross.png */ /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cross.png; path = ../../Source/Images/cross.png; sourceTree = SOURCE_ROOT; };
 		F10B84AD352C3C6626995E20 /* Accelerate.framework */ /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F911445276348D6A510A5E7B /* JUCE_hints.h */ /* JUCE_hints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JUCE_hints.h; path = ../../Source/JUCE_hints.h; sourceTree = SOURCE_ROOT; };
 		FF637011883798ED84AD007E /* include_juce_audio_processors_lv2_libs.cpp */ /* include_juce_audio_processors_lv2_libs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_processors_lv2_libs.cpp; path = ../../JuceLibraryCode/include_juce_audio_processors_lv2_libs.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -269,6 +286,8 @@
 		5560F8F292FAA11A5F37F216 /* JUCE Library Code */ = {
 			isa = PBXGroup;
 			children = (
+				70E1A6FF4676FBB4323D27E1,
+				70BA3334A55C093742ED5977,
 				AF3DC3FB5403BD00148ED360,
 				99D7194F812C4B1F7BF96A5F,
 				874EF115B394E478288974B8,
@@ -299,6 +318,9 @@
 		71492A2B2638FDD0D8F1C9EE /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F911445276348D6A510A5E7B,
+				6341AC5E163DBD49247BF205,
+				2744F602465920361049E83C,
 				0015873E3AD1AC609F374ED1,
 				602E5B2754149C08D4ECC639,
 				A0CD959370DDF82F53C74939,
@@ -351,6 +373,11 @@
 				929914FD4F0596FBFAC2FAFD,
 				A40692C729C2835AEEF35DDF,
 				A4CF45728A7AC4073474FE4E,
+				25245EBBF45ECCCEE3B0AD7E,
+				EA05AB5C6B906575018D8660,
+				44D1D8EE47FA38DF8518A9DD,
+				C2DBBBDF7AFB364D8455694A,
+				DDA883D49195A63133B9C6C3,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -626,6 +653,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DC3CA7C411CD62585C0A0CF,
+				4C41BDBC23103DD507430CF7,
+				AB913FDD526FF813940ADBBA,
+				FEA9118D575BB709D7157FFB,
+				6AEF1667D41ED048E88C5074,
+				EF44AD922258118C8545CD73,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +666,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DC3CA7C411CD62585C0A0CF,
+				4C41BDBC23103DD507430CF7,
+				AB913FDD526FF813940ADBBA,
+				FEA9118D575BB709D7157FFB,
+				6AEF1667D41ED048E88C5074,
+				EF44AD922258118C8545CD73,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +679,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DC3CA7C411CD62585C0A0CF,
+				4C41BDBC23103DD507430CF7,
+				AB913FDD526FF813940ADBBA,
+				FEA9118D575BB709D7157FFB,
+				6AEF1667D41ED048E88C5074,
+				EF44AD922258118C8545CD73,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,9 +763,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C312329B2C98DB66B4590E01,
 				2023908A4759188A22A2DE2E,
 				C9C5F5130DE27EFA941A0B76,
 				E25B5CC7C560436FA08D80A9,
+				584210E6B3CD3BFA353B78AA,
 				634F10BD72D09BCE27D4F1C9,
 				520E215AACF5EE5FD908DCFB,
 				40508A3B85C5E91DADC54283,
@@ -830,7 +874,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -860,7 +904,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -885,9 +929,9 @@
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client/AU";
-				OTHER_LDFLAGS = "-lCyberDisto";
+				OTHER_LDFLAGS = "-lCyberDisto\\ by\\ Extra\\ Terra";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CyberDisto;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
@@ -937,7 +981,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -967,7 +1011,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -996,9 +1040,9 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client/AU";
-				OTHER_LDFLAGS = "-bundle -lCyberDisto";
+				OTHER_LDFLAGS = "-bundle -lCyberDisto\\ by\\ Extra\\ Terra";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CyberDisto;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = vst3;
@@ -1049,7 +1093,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -1079,7 +1123,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1107,10 +1151,10 @@
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client/AU";
-				OTHER_LDFLAGS = "-bundle -lCyberDisto";
+				OTHER_LDFLAGS = "-bundle -lCyberDisto\\ by\\ Extra\\ Terra";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -d arm64_$arm64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CyberDisto;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = component;
@@ -1159,7 +1203,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CODE_SIGN_FLAGS = --timestamp;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
@@ -1210,7 +1254,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -1240,7 +1284,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1321,7 +1365,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CODE_SIGN_FLAGS = --timestamp;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				SDKROOT = macosx;
 				WARNING_CFLAGS = "-Wreorder";
 				ZERO_LINK = NO;
@@ -1372,7 +1416,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -1402,7 +1446,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1430,9 +1474,9 @@
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client/AU";
-				OTHER_LDFLAGS = "-bundle -lCyberDisto";
+				OTHER_LDFLAGS = "-bundle -lCyberDisto\\ by\\ Extra\\ Terra";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CyberDisto;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = vst3;
@@ -1483,7 +1527,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -1513,7 +1557,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1542,10 +1586,10 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client/AU";
-				OTHER_LDFLAGS = "-bundle -lCyberDisto";
+				OTHER_LDFLAGS = "-bundle -lCyberDisto\\ by\\ Extra\\ Terra";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -d arm64_$arm64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CyberDisto;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 				WRAPPER_EXTENSION = component;
@@ -1596,7 +1640,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -1626,7 +1670,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1652,9 +1696,9 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client/AU";
-				OTHER_LDFLAGS = "-lCyberDisto";
+				OTHER_LDFLAGS = "-lCyberDisto\\ by\\ Extra\\ Terra";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CyberDisto;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
 			};
@@ -1712,7 +1756,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -1742,7 +1786,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1769,7 +1813,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client/AU";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CyberDisto;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -1820,7 +1864,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -1850,7 +1894,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1876,7 +1920,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules $(HOME)/JUCE/modules/juce_audio_plugin_client/AU";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CyberDisto;
-				PRODUCT_NAME = "CyberDisto";
+				PRODUCT_NAME = "CyberDisto by Extra Terra";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -1927,7 +1971,7 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"CyberDisto\\\"",
 					"JucePlugin_Desc=\\\"CyberDisto\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_Manufacturer=\\\"Extra\\ Terra\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
@@ -1957,7 +2001,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ CyberDisto\\\"",
+					"JucePlugin_IAAName=\\\"Extra\\ Terra:\\ CyberDisto\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",

@@ -19,24 +19,24 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CyberDisto - VST3 Manifest 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
+		CyberDisto by Extra Terra (Debug)|x64 = CyberDisto by Extra Terra (Debug)|x64
 		CyberDisto by Extra Terra|x64 = CyberDisto by Extra Terra|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{087CF95A-C474-8209-11FE-7FDB3D303D4C}.Debug|x64.ActiveCfg = Debug|x64
-		{087CF95A-C474-8209-11FE-7FDB3D303D4C}.Debug|x64.Build.0 = Debug|x64
+		{087CF95A-C474-8209-11FE-7FDB3D303D4C}.CyberDisto by Extra Terra (Debug)|x64.ActiveCfg = CyberDisto by Extra Terra (Debug)|x64
+		{087CF95A-C474-8209-11FE-7FDB3D303D4C}.CyberDisto by Extra Terra (Debug)|x64.Build.0 = CyberDisto by Extra Terra (Debug)|x64
 		{087CF95A-C474-8209-11FE-7FDB3D303D4C}.CyberDisto by Extra Terra|x64.ActiveCfg = CyberDisto by Extra Terra|x64
 		{087CF95A-C474-8209-11FE-7FDB3D303D4C}.CyberDisto by Extra Terra|x64.Build.0 = CyberDisto by Extra Terra|x64
-		{D0A8EF9D-2F88-96F8-16A9-BF5C9C610797}.Debug|x64.ActiveCfg = Debug|x64
-		{D0A8EF9D-2F88-96F8-16A9-BF5C9C610797}.Debug|x64.Build.0 = Debug|x64
+		{D0A8EF9D-2F88-96F8-16A9-BF5C9C610797}.CyberDisto by Extra Terra (Debug)|x64.ActiveCfg = CyberDisto by Extra Terra (Debug)|x64
+		{D0A8EF9D-2F88-96F8-16A9-BF5C9C610797}.CyberDisto by Extra Terra (Debug)|x64.Build.0 = CyberDisto by Extra Terra (Debug)|x64
 		{D0A8EF9D-2F88-96F8-16A9-BF5C9C610797}.CyberDisto by Extra Terra|x64.ActiveCfg = CyberDisto by Extra Terra|x64
 		{D0A8EF9D-2F88-96F8-16A9-BF5C9C610797}.CyberDisto by Extra Terra|x64.Build.0 = CyberDisto by Extra Terra|x64
-		{0B6F41F3-AEFE-1EB9-CC4E-35397D2279CF}.Debug|x64.ActiveCfg = Debug|x64
-		{0B6F41F3-AEFE-1EB9-CC4E-35397D2279CF}.Debug|x64.Build.0 = Debug|x64
+		{0B6F41F3-AEFE-1EB9-CC4E-35397D2279CF}.CyberDisto by Extra Terra (Debug)|x64.ActiveCfg = CyberDisto by Extra Terra (Debug)|x64
+		{0B6F41F3-AEFE-1EB9-CC4E-35397D2279CF}.CyberDisto by Extra Terra (Debug)|x64.Build.0 = CyberDisto by Extra Terra (Debug)|x64
 		{0B6F41F3-AEFE-1EB9-CC4E-35397D2279CF}.CyberDisto by Extra Terra|x64.ActiveCfg = CyberDisto by Extra Terra|x64
 		{0B6F41F3-AEFE-1EB9-CC4E-35397D2279CF}.CyberDisto by Extra Terra|x64.Build.0 = CyberDisto by Extra Terra|x64
-		{FF929507-72C8-E81C-70B6-E15B96240ACF}.Debug|x64.ActiveCfg = Debug|x64
-		{FF929507-72C8-E81C-70B6-E15B96240ACF}.Debug|x64.Build.0 = Debug|x64
+		{FF929507-72C8-E81C-70B6-E15B96240ACF}.CyberDisto by Extra Terra (Debug)|x64.ActiveCfg = CyberDisto by Extra Terra (Debug)|x64
+		{FF929507-72C8-E81C-70B6-E15B96240ACF}.CyberDisto by Extra Terra (Debug)|x64.Build.0 = CyberDisto by Extra Terra (Debug)|x64
 		{FF929507-72C8-E81C-70B6-E15B96240ACF}.CyberDisto by Extra Terra|x64.ActiveCfg = CyberDisto by Extra Terra|x64
 		{FF929507-72C8-E81C-70B6-E15B96240ACF}.CyberDisto by Extra Terra|x64.Build.0 = CyberDisto by Extra Terra|x64
 	EndGlobalSection

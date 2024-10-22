@@ -703,6 +703,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\PresetData.cpp">
+      <Filter>CyberDisto\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CyberpunkLookAndFeel.cpp">
       <Filter>CyberDisto\Source</Filter>
     </ClCompile>
@@ -3529,6 +3532,9 @@
     <ClCompile Include="C:\JUCE\modules\juce_gui_extra\juce_gui_extra.mm">
       <Filter>JUCE Modules\juce_gui_extra</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\BinaryData.cpp">
+      <Filter>JUCE Library Code</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_audio_basics.cpp">
       <Filter>JUCE Library Code</Filter>
     </ClCompile>
@@ -3582,6 +3588,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\JUCE_hints.h">
+      <Filter>CyberDisto\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PresetData.h">
+      <Filter>CyberDisto\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\CyberpunkLookAndFeel.h">
       <Filter>CyberDisto\Source</Filter>
     </ClInclude>
@@ -7505,6 +7517,9 @@
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_gui_extra\juce_gui_extra.h">
       <Filter>JUCE Modules\juce_gui_extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\BinaryData.h">
+      <Filter>JUCE Library Code</Filter>
     </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
       <Filter>JUCE Library Code</Filter>

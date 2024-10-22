@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="WizUgV" name="CyberDisto" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginManufacturer="Extra Terra">
   <MAINGROUP id="ivYVCf" name="CyberDisto">
     <GROUP id="{73C66D6A-AD61-3C50-9C53-7DC7CE24D2F1}" name="Source">
+      <FILE id="rMKqNA" name="JUCE_hints.h" compile="0" resource="0" file="Source/JUCE_hints.h"/>
+      <FILE id="kTqazD" name="PresetData.cpp" compile="1" resource="0" file="Source/PresetData.cpp"/>
+      <FILE id="ZhrEdF" name="PresetData.h" compile="0" resource="0" file="Source/PresetData.h"/>
+      <FILE id="xtfce4" name="bgcyberdisto.png" compile="0" resource="1"
+            file="Source/Images/bgcyberdisto.png" xcodeResource="1"/>
+      <FILE id="iNwdYQ" name="cross.png" compile="0" resource="1" file="Source/Images/cross.png"
+            xcodeResource="1"/>
+      <FILE id="Jjij4Q" name="disk.png" compile="0" resource="1" file="Source/Images/disk.png"
+            xcodeResource="1"/>
+      <FILE id="HQ3LeZ" name="extraterra.png" compile="0" resource="1" file="Source/Images/extraterra.png"
+            xcodeResource="1"/>
+      <FILE id="RRX0E5" name="logo.png" compile="0" resource="1" file="Source/Images/logo.png"
+            xcodeResource="1"/>
       <FILE id="lKPBtC" name="CyberpunkLookAndFeel.h" compile="0" resource="0"
             file="Source/CyberpunkLookAndFeel.h"/>
       <FILE id="BG6NzW" name="CyberpunkLookAndFeel.cpp" compile="1" resource="0"
@@ -37,8 +50,8 @@
   <EXPORTFORMATS>
     <VS2022 targetFolder="Builds/VisualStudio2022">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="CyberDisto"/>
-        <CONFIGURATION isDebug="0" name="CyberDisto by Extra Terra" targetName="CyberDisto"/>
+        <CONFIGURATION isDebug="1" name="CyberDisto by Extra Terra (Debug)" targetName="CyberDisto by Extra Terra"/>
+        <CONFIGURATION isDebug="0" name="CyberDisto by Extra Terra" targetName="CyberDisto by Extra Terra"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_audio_basics" path="C:/JUCE/modules"/>
@@ -58,8 +71,8 @@
     </VS2022>
     <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="CyberDisto"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="CyberDisto"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="CyberDisto by Extra Terra"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="CyberDisto by Extra Terra"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_audio_basics" path="C:/JUCE/modules"/>
