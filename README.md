@@ -29,7 +29,7 @@ CyberDisto is not just an audio plugin; it's a cybernetic implant for your DAW. 
 - A 64-bit Windows PC that hasn't achieved sentience (yet)
 - 64-bit DAW compatible with VST3 plugins
 - Windows 10 or later (64-bit version)
-- At least 4GB of RAM (8GB recommended for maximum reality distortion)
+- At least 300MB of RAM (8GB recommended for maximum reality distortion)
 
 ### Installation Steps
 
