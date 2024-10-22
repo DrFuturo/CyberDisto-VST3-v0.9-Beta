@@ -1,0 +1,43 @@
+CyberDisto VST3 Plugin License
+
+Copyright (c) [2024] [Extra Terra]
+
+1. Open Source Components:
+   Certain components of this software are made available under the MIT License. 
+   These components are clearly marked in the source code and can be used according 
+   to the terms of the MIT License.
+
+2. Proprietary Components:
+   All other parts of this software, including but not limited to the core DSP 
+   algorithms, user interface designs, and compiled binaries, are proprietary 
+   and confidential.
+
+3. Usage Rights:
+   a. Users are granted the right to download and use the compiled VST3 plugin 
+      for both personal and commercial music production.
+   b. Users may not reverse engineer, decompile, or attempt to extract the 
+      source code of the proprietary components.
+   c. Redistribution of the compiled plugin is strictly prohibited.
+
+4. Sales and Distribution:
+   This plugin is available for purchase through authorized channels only. 
+   Resale or redistribution of purchased licenses is not permitted without 
+   express written consent.
+
+5. Modifications:
+   Users may study and modify the open-source components for personal use, 
+   but may not distribute modified versions of the plugin as a whole.
+
+6. Warranty and Liability:
+   This software is provided "as is" without warranty of any kind, either 
+   expressed or implied. In no event shall the authors or copyright holders 
+   be liable for any claim, damages or other liability arising from the use 
+   of the software.
+
+7. Termination:
+   This license is effective until terminated. Your rights under this license 
+   will terminate automatically without notice if you fail to comply with any 
+   term(s) of this license.
+
+For licensing inquiries or permissions beyond the scope of this license, 
+please contact: [your contact information]
