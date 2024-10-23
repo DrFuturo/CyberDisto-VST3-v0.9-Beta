@@ -1,0 +1,32 @@
+CyberDisto VST3 v0.9 Beta - Installation Guide (Windows)
+
+Thank you for downloading CyberDisto! Follow these steps to install the plugin and locate the presets folder.
+
+1. Installing the VST3 Plugin:
+   
+   - Copy the "CyberDisto.vst3" file to your VST3 plugins folder.
+   - Default path: C:\Program Files\Common Files\VST3
+   - If you have a custom VST3 folder, use that instead.
+
+2. Presets Folder Location:
+   
+   - C:\Users\[YourUserName]\AppData\Roaming\CyberDisto\Presets
+
+3. After Installation:
+   - Restart your Digital Audio Workstation (DAW).
+   - If the plugin doesn't appear, you may need to rescan your VST folders within your DAW.
+
+4. Loading Presets:
+   - Open CyberDisto in your DAW.
+   - Use the preset browser within the plugin to load factory presets.
+   - To load user presets, navigate to the Presets folder mentioned above.
+
+5. Troubleshooting:
+   - If the plugin doesn't load, ensure your DAW supports VST3 plugins.
+   - Verify that you have the latest version of your DAW installed.
+   - Check that the plugin is not blocked by your system's security settings.
+
+For additional support or to report issues, please visit:
+https://github.com/DrFuturo
+
+Enjoy using CyberDisto!
