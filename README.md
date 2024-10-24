@@ -19,7 +19,7 @@ CyberDisto is not just an audio plugin; it's a cybernetic implant for your DAW. 
 
 ## 💎 Full Version vs. Beta
 
-- 🌟 Full Version: Available exclusively on [Patreon](https://www.patreon.com/YourPatreonPage). Support the developer and get access to all features!
+- 🌟 Full Version: Available exclusively on [Patreon]([https://www.patreon.com/YourPatreonPage](https://www.patreon.com/posts/cyberdisto-vst3-114553758)). Support the developer and get access to all features!
 - 🧪 Beta Version: Available here on GitHub. A taste of the cyber-future, but with limited features.
 
 ## 🚀 Installation: Hack the Planet (or just your audio) - Windows 64-bit only, MacOS version will come later!
@@ -34,8 +34,8 @@ CyberDisto is not just an audio plugin; it's a cybernetic implant for your DAW. 
 ### Installation Steps
 
 1. **Download**: 
-   - Full Version: Grab the latest 64-bit build from our [Patreon page](https://www.patreon.com/YourPatreonPage).
-   - Beta Version: Download the latest 64-bit release from the [GitHub Releases page](https://github.com/YourUsername/CyberDisto/releases).
+   - Full Version: Grab the latest 64-bit build from our [Patreon page]([https://www.patreon.com/YourPatreonPage](https://www.patreon.com/posts/cyberdisto-vst3-114553758)).
+   - Beta Version: Download the latest 64-bit release from the [GitHub Releases page]([https://github.com/YourUsername/CyberDisto/releases](https://github.com/DrFuturo/CyberDisto-VST3-v0.9-Beta/releases)).
 
 2. **Extract**: Unzip the downloaded file to a temporary location. Don't be alarmed if your computer starts speaking in binary.
 
