@@ -18,24 +18,21 @@ CyberDisto is not just an audio plugin; it's a cybernetic implant for your DAW. 
 - 🧠 Presets that'll make you question the nature of reality (and your mix)
 
 ## 💎 Full Version vs. Beta
-
-- 🌟 Full Version: Available exclusively on [Patreon]([https://www.patreon.com/YourPatreonPage](https://www.patreon.com/posts/cyberdisto-vst3-114553758)). Support the developer and get access to all features!
+- 🌟 Full Version: Available exclusively on [Patreon](https://www.patreon.com/posts/cyberdisto-vst3-114553758). Support the developer and get access to all features!
 - 🧪 Beta Version: Available here on GitHub. A taste of the cyber-future, but with limited features.
 
 ## 🚀 Installation: Hack the Planet (or just your audio) - Windows 64-bit only, MacOS version will come later!
 
 ### System Requirements
-
 - A 64-bit Windows PC that hasn't achieved sentience (yet)
 - 64-bit DAW compatible with VST3 plugins
 - Windows 10 or later (64-bit version)
 - At least 300MB of RAM (8GB recommended for maximum reality distortion)
 
 ### Installation Steps
-
 1. **Download**: 
-   - Full Version: Grab the latest 64-bit build from our [Patreon page]([https://www.patreon.com/YourPatreonPage](https://www.patreon.com/posts/cyberdisto-vst3-114553758)).
-   - Beta Version: Download the latest 64-bit release from the [GitHub Releases page]([https://github.com/YourUsername/CyberDisto/releases](https://github.com/DrFuturo/CyberDisto-VST3-v0.9-Beta/releases)).
+   - Full Version: Grab the latest 64-bit build from our [Patreon page](https://www.patreon.com/posts/cyberdisto-vst3-114553758).
+   - Beta Version: Download the latest 64-bit release from the [GitHub Releases page](https://github.com/DrFuturo/CyberDisto-VST3-v0.9-Beta/releases).
 
 2. **Extract**: Unzip the downloaded file to a temporary location. Don't be alarmed if your computer starts speaking in binary.
 
